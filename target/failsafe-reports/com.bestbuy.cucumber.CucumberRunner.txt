@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.bestbuy.cucumber.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 25, Time elapsed: 7.603 sec - in com.bestbuy.cucumber.CucumberRunner

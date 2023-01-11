@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Store tags test","This test will verify if a status code of 200 is returned for GET request","SUCCESS","2023-01-08T12:32:36.121Z[Europe/London]","0.0","0.65"

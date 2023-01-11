@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>CRUD Test</title>
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
+<link type="text/css" href="css/tables.css" rel="stylesheet" />
+
+<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script><!-- ImgPreview -->
+<script src="scripts/imgpreview.full.jquery.js" type="text/javascript"></script>
+</head>
+
+<body class="results-page">
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+        <span class="breadcrumbs">
+            <a href="index.html" class="breadcrumbs">Home</a>
+
+            > CRUD Test
+        </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-01-2023 19:33</span>
+    <br style="clear:left"/>
+</div>
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Student Application</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                AS a user I Want to test Student Application
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-square-o pending-icon fa-3x' title='PENDING'></i></span>
+                            <span class="test-case-title">
+                                    <span class="pending-color">
+                                    CRUD Test
+                                        <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3 class="story-header">Scenario Outline</h3>
+
+        <div class="scenario"></div>
+
+    </div>
+
+    <div id="beforetable"></div>
+
+
+        <h3 class="story-header">Examples:</h3>
+            <div class="requirementNarrative"></div>
+        <div class="example-table">
+            <table>
+                <thead>
+                <tr>
+                    <th>#</th>
+                        <th>Name</th>
+                        <th>TYPE</th>
+                        <th>ADDRESS</th>
+                        <th>Adresss</th>
+                        <th>CITY</th>
+                        <th>STATE</th>
+                        <th>Zip1</th>
+                        <th>LAT</th>
+                        <th>LNG</th>
+                        <th>HOURS</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="test-ERROR"><a href="#0">1</a></td>
+                            <td class="test-ERROR"><a href="#0">Flexidy</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#0">Gabtune</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#0">6961 Bluejay Street  20th Floor</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#0">Palmas De Gran Canaria</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#0">Las</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#0">Canarias</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#0">35070</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#0">1</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#0">1</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#0">9:41 PM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-ERROR"><a href="#1">2</a></td>
+                            <td class="test-ERROR"><a href="#1">Flexidg</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#1">Gabtunt</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#1">6961 Bluejay Street  21th Floor</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#1">Palmas De Gran Canaria</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#1">Lak</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#1">Canaria</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#1">35071</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#1">2</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#1">2</a>
+                            </td>
+                            <td class="test-ERROR"><a href="#1">9:40 PM</a>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    <div id="tablecontents">
+        <div>
+            <table class="step-table">
+                <tr class="step-titles">
+                    <th width="65">                        &nbsp;
+                    </th>
+
+                    <th width="%" class="step-description-wide-column greentext">
+                        Steps
+                    </th>
+                    <th width="100" class="greentext">Outcome</th>
+                    <th width="75" class="greentext">Duration</th>
+                </tr>
+                <tr class="step-table-separator">
+                    <td colspan="5"></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="0"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">Given Store application is running</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.01s</span></td>
+                </tr>
+                <tr class="test-ERROR">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">When I create a new Store by providing the information Name "Flexidy" TYPE "Gabtune" ADDRESS "6961 Bluejay Street  20th Floor" ADRESSs"Palmas De Gran Canaria" CITY "Las"STATE"Canarias" ZIP1"35070" LAT1"1" LNG1"1" HOURS"9:41 PM"</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">ERROR</span></td>
+                    <td width="100"><span class="top-level-step">0.01s</span></td>
+                </tr>
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+                            <div class="error-message ellipsis"
+                                 title='Cucumber exception: Arity mismatch: Step Definition &#39;com.bestbuy.cucumber.steps.MyStepdefs.iCreateANewStoreByProvidingTheInformationNameTYPEADDRESSADRESSsCITYSTATEZIPLATLNGHOURS(String,String,String,String,String,String,int,int,int,String) in file:/C:/Users/44744/IdeaProjects/bestbuy-serenityCucumber-pradipkakadiya-08-01-2023/target/test-classes/&#39; with pattern [^I create a new Store by providing the information Name &quot;([^&quot;]*)&quot; TYPE &quot;([^&quot;]*)&quot; ADDRESS &quot;([^&quot;]*)&quot; ADRESSs&quot;([^&quot;]*)&quot; CITY &quot;([^&quot;]*)&quot;STATE&quot;([^&quot;]*)&quot; ZIP(\d+)&quot;([^&quot;]*)&quot; LAT(\d+)&quot;([^&quot;]*)&quot; LNG(\d+)&quot;([^&quot;]*)&quot; HOURS&quot;([^&quot;]*)&quot;$] is declared with 10 parameters. However, the gherkin step has 13 arguments [Flexidy, Gabtune, 6961 Bluejay Street  20th Floor, Palmas De Gran Canaria, Las, Canarias, 1, 35070, 1, 1, 1, 1, 9:41 PM]. '>
+                                <pre>Cucumber exception: Arity mismatch: Step Definition &#39;com.bestbuy.cucumber.steps.MyStepdefs.iCreateANewStoreByProvidingTheInformationNameTYPEADDRESSADRESSsCITYSTATEZIPLATLNGHOURS(String,String,String,String,String,String,int,int,int,Strin...</pre>
+                            </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                            data-target="#stacktraceModal-2">
+                        View stack trace
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-2" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                cucumber.runtime.CucumberException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>Arity mismatch: Step Definition 'com.bestbuy.cucumber.steps.MyStepdefs.iCreateANewStoreByProvidingTheInformationNameTYPEADDRESSADRESSsCITYSTATEZIPLATLNGHOURS(String,String,String,String,String,String,int,int,int,String) in file:/C:/Users/44744/IdeaProjects/bestbuy-serenityCucumber-pradipkakadiya-08-01-2023/target/test-classes/' with pattern [^I create a new Store by providing the information Name "([^"]*)" TYPE "([^"]*)" ADDRESS "([^"]*)" ADRESSs"([^"]*)" CITY "([^"]*)"STATE"([^"]*)" ZIP(\d+)"([^"]*)" LAT(\d+)"([^"]*)" LNG(\d+)"([^"]*)" HOURS"([^"]*)"$] is declared with 10 parameters. However, the gherkin step has 13 arguments [Flexidy, Gabtune, 6961 Bluejay Street  20th Floor, Palmas De Gran Canaria, Las, Canarias, 1, 35070, 1, 1, 1, 1, 9:41 PM]. <br>Step: When I create a new Store by providing the information Name "Flexidy" TYPE "Gabtune" ADDRESS "6961 Bluejay Street  20th Floor" ADRESSs"Palmas De Gran Canaria" CITY "Las"STATE"Canarias" ZIP1"35070" LAT1"1" LNG1"1" HOURS"9:41 PM"</h5>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </td>
+                    </tr>
+                <tr class="test-PENDING">
+                    <td width="60" class="step-icon">
+                        <a name="2"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">Then I verify that the Store with StoreID is created</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">PENDING</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-PENDING">
+                    <td width="60" class="step-icon">
+                        <a name="3"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">And I update the student with informatio By StoreID "Name "Flexidy" TYPE "Gabtune" ADDRESS "6961 Bluejay Street  20th Floor" ADRESSs "Palmas De Gran Canaria" CITY "Las"STATE"Canarias" ZIP1"&lt;ZIP&gt;" LAT1"1" LNG1"1" HOURS"9:41 PM"</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">PENDING</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
+                        <a name="4"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">And the Store with StoreID StoreID is updated sucessfully</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
+                        <a name="5"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">And I delete the StoreID that created with StoreID</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
+                        <a name="6"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">Then The Store deleted successfully form the application</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="7"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">Given Store application is running</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.01s</span></td>
+                </tr>
+                <tr class="test-ERROR">
+                    <td width="60" class="step-icon">
+                        <a name="8"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">When I create a new Store by providing the information Name "Flexidg" TYPE "Gabtunt" ADDRESS "6961 Bluejay Street  21th Floor" ADRESSs"Palmas De Gran Canaria" CITY "Lak"STATE"Canaria" ZIP1"35071" LAT1"2" LNG1"2" HOURS"9:40 PM"</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">ERROR</span></td>
+                    <td width="100"><span class="top-level-step">0.05s</span></td>
+                </tr>
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+                            <div class="error-message ellipsis"
+                                 title='Cucumber exception: Arity mismatch: Step Definition &#39;com.bestbuy.cucumber.steps.MyStepdefs.iCreateANewStoreByProvidingTheInformationNameTYPEADDRESSADRESSsCITYSTATEZIPLATLNGHOURS(String,String,String,String,String,String,int,int,int,String) in file:/C:/Users/44744/IdeaProjects/bestbuy-serenityCucumber-pradipkakadiya-08-01-2023/target/test-classes/&#39; with pattern [^I create a new Store by providing the information Name &quot;([^&quot;]*)&quot; TYPE &quot;([^&quot;]*)&quot; ADDRESS &quot;([^&quot;]*)&quot; ADRESSs&quot;([^&quot;]*)&quot; CITY &quot;([^&quot;]*)&quot;STATE&quot;([^&quot;]*)&quot; ZIP(\d+)&quot;([^&quot;]*)&quot; LAT(\d+)&quot;([^&quot;]*)&quot; LNG(\d+)&quot;([^&quot;]*)&quot; HOURS&quot;([^&quot;]*)&quot;$] is declared with 10 parameters. However, the gherkin step has 13 arguments [Flexidg, Gabtunt, 6961 Bluejay Street  21th Floor, Palmas De Gran Canaria, Lak, Canaria, 1, 35071, 1, 2, 1, 2, 9:40 PM]. '>
+                                <pre>Cucumber exception: Arity mismatch: Step Definition &#39;com.bestbuy.cucumber.steps.MyStepdefs.iCreateANewStoreByProvidingTheInformationNameTYPEADDRESSADRESSsCITYSTATEZIPLATLNGHOURS(String,String,String,String,String,String,int,int,int,Strin...</pre>
+                            </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                            data-target="#stacktraceModal-9">
+                        View stack trace
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-9" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                cucumber.runtime.CucumberException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>Arity mismatch: Step Definition 'com.bestbuy.cucumber.steps.MyStepdefs.iCreateANewStoreByProvidingTheInformationNameTYPEADDRESSADRESSsCITYSTATEZIPLATLNGHOURS(String,String,String,String,String,String,int,int,int,String) in file:/C:/Users/44744/IdeaProjects/bestbuy-serenityCucumber-pradipkakadiya-08-01-2023/target/test-classes/' with pattern [^I create a new Store by providing the information Name "([^"]*)" TYPE "([^"]*)" ADDRESS "([^"]*)" ADRESSs"([^"]*)" CITY "([^"]*)"STATE"([^"]*)" ZIP(\d+)"([^"]*)" LAT(\d+)"([^"]*)" LNG(\d+)"([^"]*)" HOURS"([^"]*)"$] is declared with 10 parameters. However, the gherkin step has 13 arguments [Flexidg, Gabtunt, 6961 Bluejay Street  21th Floor, Palmas De Gran Canaria, Lak, Canaria, 1, 35071, 1, 2, 1, 2, 9:40 PM]. <br>Step: When I create a new Store by providing the information Name "Flexidg" TYPE "Gabtunt" ADDRESS "6961 Bluejay Street  21th Floor" ADRESSs"Palmas De Gran Canaria" CITY "Lak"STATE"Canaria" ZIP1"35071" LAT1"2" LNG1"2" HOURS"9:40 PM"</h5>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </td>
+                    </tr>
+                <tr class="test-PENDING">
+                    <td width="60" class="step-icon">
+                        <a name="9"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">Then I verify that the Store with StoreID is created</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">PENDING</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-PENDING">
+                    <td width="60" class="step-icon">
+                        <a name="10"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">And I update the student with informatio By StoreID "Name "Flexidg" TYPE "Gabtunt" ADDRESS "6961 Bluejay Street  21th Floor" ADRESSs "Palmas De Gran Canaria" CITY "Lak"STATE"Canaria" ZIP1"&lt;ZIP&gt;" LAT1"2" LNG1"2" HOURS"9:40 PM"</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">PENDING</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-IGNORED">
+                    <td width="60" class="step-icon">
+                        <a name="11"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">And the Store with StoreID StoreID is updated sucessfully</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">IGNORED</span></td>
+                    <td width="100"><span class="top-level-step">0.01s</span></td>
+                </tr>
+                <tr class="test-IGNORED">
+                    <td width="60" class="step-icon">
+                        <a name="12"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">And I delete the StoreID that created with StoreID</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">IGNORED</span></td>
+                    <td width="100"><span class="top-level-step">0.01s</span></td>
+                </tr>
+                <tr class="test-IGNORED">
+                    <td width="60" class="step-icon">
+                        <a name="13"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">Then The Store deleted successfully form the application</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">IGNORED</span></td>
+                    <td width="100"><span class="top-level-step">0.01s</span></td>
+                </tr>
+                <tr class="test-PENDING">
+                    <td colspan="2"></td>
+                    <td width="100"><span class="top-level-step"><em>PENDING</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.19s</em></span></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div id="beforefooter"></div>
+    <div id="bottomfooter">
+        <span class="version">Serenity BDD version 1.5.1</span>
+    </div>
+
+
+    <script type="text/javascript">
+        function toggleDiv(divId) {
+            $("#" + divId).toggle();
+            var imgsrc = $(".img" + divId).attr('src');
+            if (imgsrc == 'images/plus.png') {
+                $(".img" + divId).attr("src", function () {
+                    return "images/minus.png";
+                });
+
+            }
+            else {
+                $(".img" + divId).attr("src", function () {
+                    return "images/plus.png";
+                });
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        $('.example-table table').DataTable({
+            "order": [[0, "asc"]],
+            "pageLength": 25,
+            "scrollX": "100%",
+            "scrollXInner": "100%",
+            "scrollCollapse": true
+        });
+    </script>
+
+    <script type="text/javascript">
+        //<![CDATA[
+
+        $(document).ready(function () {
+            $('img.screenshot').imgPreview({
+                imgCSS: {
+                    width: '500px'
+                },
+                distanceFromCursor: {top: 10, left: -200}
+            });
+        });
+
+        //]]>
+    </script>
+    <div id="imgPreviewContainer" style="position: absolute; top: 612px; left: 355px; display: none; " class=""><img
+            src="" style="display: none; "></div>
+    <div id="imgPreviewContainer2" style="position: absolute; top: 925px; left: 320px; display: none; " class="">
+        <img style="width: 200px; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles" style="position: absolute; top: 1272px; left: 321px; display: none; " class="">
+        <img style="height: 200px; opacity: 1; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles2" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+    <div id="imgPreviewWithStyles3" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+com\bestbuy\testbase\TestBase.class
+com\bestbuy\Storeinfo\CreateProductDataDrivenTest.class
+com\bestbuy\cucumber\CucumberRunner.class
+com\bestbuy\cucumber\steps\MyStepdefs.class
+com\bestbuy\Storeinfo\StoreTagsTest.class
+com\bestbuy\Storeinfo\ProductTagsTest.class
+com\bestbuy\Storeinfo\CreateStoreDataDrivenTest.class
